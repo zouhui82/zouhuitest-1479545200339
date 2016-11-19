@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: zouhuitest
+  host: zouhuitest
+  disk_quota: 1024M
+  services:
+  - Conversation-yd
+  - Speech to Text-d3
+  - Text to Speech-0z
